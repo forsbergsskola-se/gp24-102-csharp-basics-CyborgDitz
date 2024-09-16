@@ -1,2 +1,4 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+string outputString;
+outputString = @"Hello world!"; //@ sets multible lines for string
+Console.WriteLine(outputString);
