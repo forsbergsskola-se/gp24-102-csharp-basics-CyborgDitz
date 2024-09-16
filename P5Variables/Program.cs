@@ -1,5 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
-//Console.WriteLine("Hello, World!");
+
 string a;
 string b;
 //defines variables
@@ -15,4 +15,7 @@ b = a;
 //B is current variable value of a, which is World
 Console.WriteLine(b);
 //prints world again.
-s
+a = "Forsbergs";
+//Sets "a" value to "Forsbergs
+Console.WriteLine(a); //prints Forsbergs
+Console.WriteLine(b); //Prints stored value of "a", World
