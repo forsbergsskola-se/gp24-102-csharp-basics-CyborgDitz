@@ -16,10 +16,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7c804bd6-8f0c-461c-9265-280f7796c763" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.gp24-102-csharp-basics-CyborgDitz.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.gp24-102-csharp-basics-CyborgDitz.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P5Variables/obj/Debug/net8.0/P5Variables.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/P5Variables/obj/Debug/net8.0/P5Variables.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P5Variables/obj/Debug/net8.0/P5Variables.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/P5Variables/obj/Debug/net8.0/P5Variables.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P5Variables/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/P5Variables/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P7Input/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/P7Input/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +37,7 @@
   "keyToString": {
     ".NET Project.P6P6DataTypes.executor": "Run",
     ".NET Project.P7Input.executor": "Run",
-    ".NET Project.P8Conversion.executor": "Debug",
+    ".NET Project.P8Conversion.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
@@ -210,7 +206,7 @@
       <workItem from="1726485221692" duration="37000" />
       <workItem from="1726557025381" duration="1709000" />
       <workItem from="1726558749683" duration="28000" />
-      <workItem from="1726558818510" duration="2025000" />
+      <workItem from="1726558818510" duration="2456000" />
     </task>
     <servers />
   </component>
