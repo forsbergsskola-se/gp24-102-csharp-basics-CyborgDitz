@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("P5Variables")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6eb68bd7e76752dcdd32bbe229ed8ecd56cb731e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aad0d6ab432ca60edef0091f7908df2d3952e94a")]
 [assembly: System.Reflection.AssemblyProductAttribute("P5Variables")]
 [assembly: System.Reflection.AssemblyTitleAttribute("P5Variables")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

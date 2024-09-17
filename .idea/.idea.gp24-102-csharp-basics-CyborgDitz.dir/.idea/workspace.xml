@@ -6,15 +6,20 @@
     <projectFile>P3PrintingOutput/P3PrintingOutput.csproj</projectFile>
     <projectFile>P4Comments/P4Comments.csproj</projectFile>
     <projectFile>P5Variables/P5Variables.csproj</projectFile>
+    <projectFile>P6P6DataTypes/P6P6DataTypes.csproj</projectFile>
+    <projectFile>P7Input/P7Input.csproj</projectFile>
+    <projectFile>P8Conversion/P8Conversion.csproj</projectFile>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7c804bd6-8f0c-461c-9265-280f7796c763" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/P5Variables/.idea/.idea.P5Variables.dir/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/P5Variables/.idea/.idea.P5Variables.dir/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/P5Variables/.idea/.idea.P5Variables.dir/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/P5Variables/.idea/.idea.P5Variables.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P4Comments/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/P4Comments/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.gp24-102-csharp-basics-CyborgDitz.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.gp24-102-csharp-basics-CyborgDitz.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/P5Variables/obj/Debug/net8.0/P5Variables.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/P5Variables/obj/Debug/net8.0/P5Variables.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/P5Variables/obj/Debug/net8.0/P5Variables.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/P5Variables/obj/Debug/net8.0/P5Variables.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/P5Variables/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/P5Variables/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/P7Input/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/P7Input/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,9 +29,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2m9OFQJbrF4YE25ocYyfHVpKO9k" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -34,13 +39,21 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    ".NET Project.P6P6DataTypes.executor": "Run",
+    ".NET Project.P7Input.executor": "Run",
+    ".NET Project.P8Conversion.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected=".NET Project.Helloworld">
+  <component name="RunManager" selected=".NET Project.P8Conversion">
     <configuration name="Helloworld" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -131,6 +144,60 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="P6P6DataTypes" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/P6P6DataTypes/P6P6DataTypes.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="P7Input" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/P7Input/P7Input.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="P8Conversion" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/P8Conversion/P8Conversion.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -141,6 +208,9 @@
       <option name="presentableId" value="Default" />
       <updated>1726485220523</updated>
       <workItem from="1726485221692" duration="37000" />
+      <workItem from="1726557025381" duration="1709000" />
+      <workItem from="1726558749683" duration="28000" />
+      <workItem from="1726558818510" duration="2025000" />
     </task>
     <servers />
   </component>
@@ -151,5 +221,37 @@
   <component name="VcsManagerConfiguration">
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/P8Conversion/Program.cs</url>
+          <line>1</line>
+          <properties documentPath="C:\Projects\gp24-102-csharp-basics-CyborgDitz\P8Conversion\Program.cs" containingFunctionPresentation="">
+            <startOffsets>
+              <option value="64" />
+            </startOffsets>
+            <endOffsets>
+              <option value="188" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/P7Input/Program.cs</url>
+          <line>2</line>
+          <properties documentPath="C:\Projects\gp24-102-csharp-basics-CyborgDitz\P7Input\Program.cs" containingFunctionPresentation="">
+            <startOffsets>
+              <option value="65" />
+            </startOffsets>
+            <endOffsets>
+              <option value="142" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
