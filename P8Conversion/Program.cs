@@ -7,7 +7,8 @@ float a =float.Parse(input); //a = float.Parse(input); //parse a float from stri
 
 Console.WriteLine($"Output:"+ a);
 
-int b = Convert.ToInt32(a); //
+//int b = Convert.ToInt32(a); //
+int b = (int)a;
 Console.WriteLine($"Output:"+b);
 
 int c = Convert.ToInt32(input); //reads a int value from a decimal, doesnt compute if decimal
