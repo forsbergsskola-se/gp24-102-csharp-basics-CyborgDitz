@@ -8,6 +8,7 @@ Console.WriteLine($"Output:" + decimalValue); //float output
 Console.WriteLine($"Output:" + isAwesome); //bool output
 
 //Learning from class
-char AdamChar = 'A';
-char BobChar = 'B';
-int doMath = AdamChar + BobChar;
+char AdamChar = 'A'; // A = 65 cuz of decimal bit or some shenanigans to DoMath
+char BobChar = '1'; // adds 49 for some reason to DoMath
+int DoMath = AdamChar + BobChar; //adds A to 2
+//Console.WriteLine(DoMath);
