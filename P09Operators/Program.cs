@@ -12,7 +12,11 @@ string input = Console.ReadLine();
 
 float math = float.Parse(input);
 float seconds = math % 60;
-Console.WriteLine(seconds); // shoulds print and divide stuff
+float
+Console.WriteLine(math + (seconds % 60 ) ); // shoulds print and divide stuff - it printed the remaining digit
+//Test: WriteLine(math+b). - Problem. Printed value + modulo value.
+//Test: Formula update to set variable of seconds to minutes, as divided by 60
+
 
 
 
