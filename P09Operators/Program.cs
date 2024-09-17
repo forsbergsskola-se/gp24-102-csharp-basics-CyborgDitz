@@ -10,9 +10,11 @@ string input = Console.ReadLine();
 //hours c = ( input / 60 / 60 ) -> b/=/c
 //days d= ( input / 60 / 60 / 24 )
 
-float math = float.Parse(input);
-float seconds = math % 60;
-float
+int math = Convert.ToInt32(input); //total input
+int a = math; //test variable
+int b = math % 60; //test variable
+int c = math % (60 * 60); //test variable
+float d = 
 Console.WriteLine(math + (seconds % 60 ) ); // shoulds print and divide stuff - it printed the remaining digit
 //Test: WriteLine(math+b). - Problem. Printed value + modulo value.
 //Test: Formula update to set variable of seconds to minutes, as divided by 60
