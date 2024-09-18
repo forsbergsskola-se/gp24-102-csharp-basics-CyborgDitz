@@ -6,14 +6,11 @@ Console.WriteLine("exercise 0.1 speedconverter"); //exercise 0.1 speedconverter
 Console.WriteLine("Gimme a kilometer or two!!");
 string input1 = Console.ReadLine();
 
-
-
 int KH = Convert.ToInt32(input1);
 Console.WriteLine($"Beep boop. I think this is Kilometers per hour... "+ KH);
 
 double KHToMS = KH / 3.6; // KH to MS is roughly KH / 3.6
 Console.WriteLine($"Beep boop. I think this is Meters per Second... "+ KHToMS);
-
 
 Console.WriteLine("exercise 0.2 MinutesToSeconds"); //exercise 0.2 MinutesToSeconds
 Console.WriteLine("Gimme a few minutes!");
@@ -22,9 +19,20 @@ int Min = Convert.ToInt32(input2);
 
 int Sec = Min * 60;
 Console.WriteLine("This is seconds now! " + Sec + " seconds");
-    
 
 Console.WriteLine("exercise 0.3 Division"); //exercise 0.3 Division
+/* Implement a program that takes two integers as input and displays their division result as a float.
+Input: 11, 4
+Output: 2,75 */
+Console.WriteLine("Gimme TWO numbers!!");
+string input3 = Console.ReadLine();
+string input4 = Console.ReadLine();
+float Div0 = float.Parse(input3);
+float Div1 = float.Parse(input4);
+Console.WriteLine(Div0 / Div1);
+
+Console.WriteLine("exercise 0.4 Remainder");
+Console.WriteLine("Gimme a few numbers AGAIN!");
 
 
 /*EVERYTHING BELOW THIS LINE IS SUBJECT TO TRASH 
