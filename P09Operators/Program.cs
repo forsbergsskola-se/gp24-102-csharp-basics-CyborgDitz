@@ -9,7 +9,8 @@ string input = Console.ReadLine();
 Console.WriteLine("exercise 0.1 speedconverter");
 int KH = Convert.ToInt32(input);
 Console.WriteLine($"Beep boop. I think this is Kilometers per hour... "+ KH);
-float KHToMS = (float)(KH / 3.6);
+// KH to MS is roughly KH / 3.6
+double KHToMS = KH / 3.6;
 Console.WriteLine($"Beep boop. I think this is Meters per Second... "+ KHToMS);
 
 //
