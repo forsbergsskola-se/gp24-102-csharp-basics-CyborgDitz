@@ -1,7 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more ;
 //test code goes below here. P09 exercises in order of appearance, skipping 00
 
-
 // im confused this week lmao - Seb
 //Console.WriteLine("Gimme a couple seconds, or a bunch!. In. Here. NOW! TYYPPE THEM!!");
 Console.WriteLine("exercise 0.1 speedconverter"); //exercise 0.1 speedconverter
@@ -65,6 +64,13 @@ Console.WriteLine("Gimme weight and height in meters, like 50kg and 1,54m!!");
 float NumBMI = float.Parse(Console.ReadLine()) / MathF.Pow(float.Parse(Console.ReadLine()),2);
 Console.WriteLine(NumBMI);
 
+Console.WriteLine("P09_09Hypotenuse");
+Console.WriteLine("Gib 2 sides of a triangle plix plox");
+float Hypo = MathF.Sqrt( 
+    MathF.Pow(float.Parse(Console.ReadLine()), 2) +
+     MathF.Pow(float.Parse(Console.ReadLine()), 2));
+// root of side squared + side squared code
+Console.WriteLine("Hypotenuse = " + Hypo);
 
 /*EVERYTHING BELOW THIS LINE IS SUBJECT TO TRASH 
 
