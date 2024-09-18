@@ -29,10 +29,18 @@ string input3 = Console.ReadLine();
 string input4 = Console.ReadLine();
 float Div0 = float.Parse(input3);
 float Div1 = float.Parse(input4);
-Console.WriteLine(Div0 / Div1);
+Console.WriteLine(Div0 / Div1 + "Division!");
 
-Console.WriteLine("exercise 0.4 Remainder");
+Console.WriteLine("exercise 0.4 Remainder"); //exercise 0.4 remainder
 Console.WriteLine("Gimme a few numbers AGAIN!");
+
+float Num0 = float.Parse(Console.ReadLine());
+float Num1 = float.Parse(Console.ReadLine());
+// Aha! like this it converts string to float value and saves the variable as a float
+// It loses the readline if it was text, but we dont want to save text anyway.
+// We're saving data this way by only saving the float value we need.
+// If I needed I could display an error message to ask for a number value instead, maybe next time
+Console.WriteLine(Num0 % Num1 + "Remainder!");
 
 
 /*EVERYTHING BELOW THIS LINE IS SUBJECT TO TRASH 
