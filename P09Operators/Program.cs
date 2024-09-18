@@ -53,6 +53,14 @@ Console.WriteLine("Gimme number to mess with");
 float NumNeg = float.Parse(Console.ReadLine());
 Console.WriteLine(-NumNeg);
 
+Console.WriteLine("P09_07Product");
+Console.WriteLine("Gimme TWO more numbers please!");
+int NumProd = Convert.ToInt32(Console.ReadLine()) * Convert.ToInt32(Console.ReadLine());
+Console.WriteLine(NumProd);
+/*
+Console.WriteLine("P09_08BMI");
+Console.WriteLine("Gimme TWO more numbers please, uh, again!!");
+float NumBMI = (float.Parse(Console.ReadLine()) + float.Parse(Console.ReadLine());
 
 /*EVERYTHING BELOW THIS LINE IS SUBJECT TO TRASH 
 
