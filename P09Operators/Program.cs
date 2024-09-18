@@ -2,19 +2,20 @@
 
 // im confused this week lmao - Seb
 //Console.WriteLine("Gimme a couple seconds, or a bunch!. In. Here. NOW! TYYPPE THEM!!");
+Console.WriteLine("exercise 0.1 speedconverter"); //exercise 0.1 speedconverter
 Console.WriteLine("Gimme a kilometer or two!!");
 string input1 = Console.ReadLine();
 
-//exercise 0.1 speedconverter
-Console.WriteLine("exercise 0.1 speedconverter");
+
+
 int KH = Convert.ToInt32(input1);
 Console.WriteLine($"Beep boop. I think this is Kilometers per hour... "+ KH);
 
 double KHToMS = KH / 3.6; // KH to MS is roughly KH / 3.6
 Console.WriteLine($"Beep boop. I think this is Meters per Second... "+ KHToMS);
 
-//exercise 0.2 MinutesToSeconds
-Console.WriteLine("exercise 0.2 MinutesToSeconds");
+
+Console.WriteLine("exercise 0.2 MinutesToSeconds"); //exercise 0.2 MinutesToSeconds
 Console.WriteLine("Gimme a few minutes!");
 string input2 = Console.ReadLine();
 int Min = Convert.ToInt32(input2);
@@ -22,6 +23,10 @@ int Min = Convert.ToInt32(input2);
 int Sec = Min * 60;
 Console.WriteLine("This is seconds now! " + Sec + " seconds");
     
+
+Console.WriteLine("exercise 0.3 Division"); //exercise 0.3 Division
+
+
 /*EVERYTHING BELOW THIS LINE IS SUBJECT TO TRASH 
 
 //"input-> displayed in seconds a
