@@ -1,4 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more ;
+//test code goes below here. P09 exercises in order of appearance, skipping 00
+
 
 // im confused this week lmao - Seb
 //Console.WriteLine("Gimme a couple seconds, or a bunch!. In. Here. NOW! TYYPPE THEM!!");
@@ -57,10 +59,12 @@ Console.WriteLine("P09_07Product");
 Console.WriteLine("Gimme TWO more numbers please!");
 int NumProd = Convert.ToInt32(Console.ReadLine()) * Convert.ToInt32(Console.ReadLine());
 Console.WriteLine(NumProd);
-/*
+
 Console.WriteLine("P09_08BMI");
-Console.WriteLine("Gimme TWO more numbers please, uh, again!!");
-float NumBMI = (float.Parse(Console.ReadLine()) + float.Parse(Console.ReadLine());
+Console.WriteLine("Gimme weight and height in meters, like 50kg and 1,54m!!");
+float NumBMI = float.Parse(Console.ReadLine()) / MathF.Pow(float.Parse(Console.ReadLine()),2);
+Console.WriteLine(NumBMI);
+
 
 /*EVERYTHING BELOW THIS LINE IS SUBJECT TO TRASH 
 
