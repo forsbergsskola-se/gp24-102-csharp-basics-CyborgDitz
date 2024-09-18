@@ -1,9 +1,22 @@
-﻿// See https://aka.ms/new-console-template for more 
+﻿// See https://aka.ms/new-console-template for more ;
 
-using System.Net.Mime;
-
-Console.WriteLine("Gimme a couple seconds, or a bunch!. In. Here. NOW! TYYPPE THEM!!");
+// im confused this week lmao - Seb
+//Console.WriteLine("Gimme a couple seconds, or a bunch!. In. Here. NOW! TYYPPE THEM!!");
+Console.WriteLine("Gimme a number!");
 string input = Console.ReadLine();
+
+//exercise 0.1 speedconverter
+Console.WriteLine("exercise 0.1 speedconverter");
+int KH = Convert.ToInt32(input);
+Console.WriteLine($"Beep boop. I think this is Kilometers per hour... "+ KH);
+float KHToMS = (float)(KH / 3.6);
+Console.WriteLine($"Beep boop. I think this is Meters per Second... "+ KHToMS);
+
+//
+Console.WriteLine("exercise 0.2 speedconverter");
+
+/*EVERYTHING BELOW THIS LINE IS SUBJECT TO TRASH 
+
 //"input-> displayed in seconds a
 // time formula = ( input / a / b / c / d) 
 //minutes b = ( input / 60 )
@@ -23,7 +36,7 @@ Console.WriteLine(a);
 Console.WriteLine(b);
 Console.WriteLine(c);
 Console.WriteLine(d);
-
+*/
 
 
 /*float seconds;
