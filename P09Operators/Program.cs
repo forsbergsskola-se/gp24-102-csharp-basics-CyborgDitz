@@ -29,7 +29,7 @@ string input3 = Console.ReadLine();
 string input4 = Console.ReadLine();
 float Div0 = float.Parse(input3);
 float Div1 = float.Parse(input4);
-Console.WriteLine(Div0 / Div1 + "Division!");
+Console.WriteLine(Div0 / Div1 + " Division!");
 
 Console.WriteLine("exercise 0.4 Remainder"); //exercise 0.4 remainder
 Console.WriteLine("Gimme a few numbers AGAIN!");
@@ -40,7 +40,18 @@ float Num1 = float.Parse(Console.ReadLine());
 // It loses the readline if it was text, but we dont want to save text anyway.
 // We're saving data this way by only saving the float value we need.
 // If I needed I could display an error message to ask for a number value instead, maybe next time
-Console.WriteLine(Num0 % Num1 + "Remainder!");
+Console.WriteLine(Num0 % Num1 + " Remainder!");
+
+Console.WriteLine("P09_05CircleArea");
+Console.WriteLine("Gimme a length in cm!");
+float Len = float.Parse(Console.ReadLine());
+Console.WriteLine(Math.Pow(Len, 2) * Single.Pi);
+//math to the power of, Len is a value to math powers to 2
+
+Console.WriteLine("P09_06Negation");
+Console.WriteLine("Gimme number to mess with");
+float NumNeg = float.Parse(Console.ReadLine());
+Console.WriteLine(-NumNeg);
 
 
 /*EVERYTHING BELOW THIS LINE IS SUBJECT TO TRASH 
