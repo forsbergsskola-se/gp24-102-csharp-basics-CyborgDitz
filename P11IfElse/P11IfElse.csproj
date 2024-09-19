@@ -7,4 +7,19 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="P11IfElse_01\**" />
+    <Compile Remove="P11IfElse_02\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="P11IfElse_01\**" />
+    <EmbeddedResource Remove="P11IfElse_02\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="P11IfElse_01\**" />
+    <None Remove="P11IfElse_02\**" />
+  </ItemGroup>
+
 </Project>
