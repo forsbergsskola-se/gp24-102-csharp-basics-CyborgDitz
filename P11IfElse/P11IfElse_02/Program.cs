@@ -19,3 +19,15 @@ else
     Console.WriteLine("lowest is " + c);
 }
 
+if (a > b & a > c) 
+{
+Console.WriteLine("highest is " + a);
+}
+else if (b > a && b > c)
+{
+    Console.WriteLine("highest is " + b);
+}
+else
+{
+    Console.WriteLine("highest is " + c);
+}
