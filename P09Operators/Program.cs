@@ -74,33 +74,17 @@ float Hypo = MathF.Sqrt(
 // root of side squared + side squared code
 Console.WriteLine("Hypotenuse = " + Hypo);
 
-Console.WriteLine("P09_10
-/*EVERYTHING BELOW THIS LINE IS SUBJECT TO TRASH 
+//p09-10 seconds to minutes
+Console.WriteLine("P09_10SecondsToMnutes");
+Console.WriteLine("Gimme a few seconds now!");
+int SMInput = int.Parse(Console.ReadLine());
+int SMmin = SMInput / 60;
+int SMSec = SMInput % 60;
+Console.WriteLine(SMmin + " minute(s) and " + SMSec + "second(s)");
 
-//"input-> displayed in seconds a
-// time formula = ( input / a / b / c / d) 
-//minutes b = ( input / 60 )
-//hours c = ( input / 60 / 60 ) -> b/=/c
-//days d= ( input / 60 / 60 / 24 )
+// // p09 assignement
+// Console.WriteLine("Gimme a few seconds, like not a few maybe a bunch");
+// int PInput = int.Parse(Console.ReadLine());
+// int PDays = PInput / (60 * 60 * 24);
 
-int math = Convert.ToInt32(input); //total input
-int a = math; //test variable
-int b = math / 60; //test variable
-int c = math / (60*60); //test variable
-float d = math/ (60 * 60 * 24);
-//Console.WriteLine(math + (seconds % 60 ) ); // shoulds print and divide stuff - it printed the remaining digit
-//Test: WriteLine(math+b). - Problem. Printed value + modulo value.
-//Test: Formula update to set variable of seconds to minutes, as divided by 60
-Console.WriteLine(math);
-Console.WriteLine(a);
-Console.WriteLine(b);
-Console.WriteLine(c);
-Console.WriteLine(d);
-*/
-
-
-/*float seconds;
-float minutes;
-float hours;
-float days; */
 
