@@ -18,3 +18,15 @@ if (age <= 12 && age >0)
 if (age <=0) {
     Console.WriteLine("What... What are you?!");
 }
+Console.WriteLine("Gimme another integer plix plox.");
+var gimme = Convert.ToInt32(Console.ReadLine());
+if (gimme > age)
+{
+    Console.WriteLine("The greater of the two is the integer: " + gimme);
+}
+
+if (gimme < age)
+{
+    Console.WriteLine("The greater of the two is  your age: age " + age);
+}
+
