@@ -2,16 +2,15 @@
 Console.WriteLine("Give me a nacho bunch of numbers");
 float input = float.Parse(Console.ReadLine());
 float d = input / (MathF.Pow(60, 2)*24);
-float h = input % 86400 / 3600; // holy shit thats right
-// float asdsad = input %60 ;
-                          // float m = input / (60);
-                          // float s = input % (60);
+float h = (input % 86400) / 3600; // holy shit thats right
+float m = (input % 86400) % 3600 / 60; // hahahahah eurueka!
+float s = input % (60); // seconds is only multibles of 60, so remainder always = seconds
 
 //first day
 Console.WriteLine("days:"+(int)d);
 Console.WriteLine("hours:"+(int)h);
-// Console.WriteLine("minutes:"+(int)m);
-// Console.WriteLine("seconds:"+(int)s);
+Console.WriteLine("minutes:"+(int)m);
+Console.WriteLine("seconds:"+(int)s);
 
 
 
