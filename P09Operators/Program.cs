@@ -1,6 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more ;
 //test code goes below here. P09 exercises in order of appearance, skipping 00
-
+//big assignment in other subfolder
 // im confused this week lmao - Seb
 //Console.WriteLine("Gimme a couple seconds, or a bunch!. In. Here. NOW! TYYPPE THEM!!");
 Console.WriteLine("exercise 0.1 speedconverter"); //exercise 0.1 speedconverter
