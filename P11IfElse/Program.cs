@@ -23,10 +23,15 @@ var gimme = Convert.ToInt32(Console.ReadLine());
 if (gimme > age)
 {
     Console.WriteLine("The greater of the two is the integer: " + gimme);
+    Console.WriteLine(gimme % 2 == 0 ? "That is an even number" : "That is an odd number" );
 }
+
+
 
 if (gimme < age)
 {
     Console.WriteLine("The greater of the two is  your age: age " + age);
+    Console.WriteLine(age % 2 == 0 ? "That is an even number" : "That is an odd number");
 }
+
 
