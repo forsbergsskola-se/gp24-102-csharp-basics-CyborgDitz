@@ -51,8 +51,9 @@ Console.WriteLine(Math.Pow(Len, 2) * Single.Pi);
 
 Console.WriteLine("P09_06Negation");
 Console.WriteLine("Gimme number to mess with");
-float NumNeg = float.Parse(Console.ReadLine());
-Console.WriteLine(-NumNeg);
+float Num1 = float.Parse(Console.ReadLine());
+float NumNeg1 = -Num1;
+Console.WriteLine(NumNeg1);
 
 Console.WriteLine("P09_07Product");
 Console.WriteLine("Gimme TWO more numbers please!");
