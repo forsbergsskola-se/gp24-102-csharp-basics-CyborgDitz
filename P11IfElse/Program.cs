@@ -6,15 +6,17 @@ if (age >= 18)
     Console.WriteLine("You are an adult!");
 }
 
-if (age < 18 && age >=13)
+else if (age >= 13)
 {
     Console.WriteLine("You are a teen!");
 }
 
-if (age <= 12 && age >0)
+else 
 {
     Console.WriteLine("You are a child!");
 }
+
+
 if (age <=0) {
     Console.WriteLine("What... What are you?!");
 }
