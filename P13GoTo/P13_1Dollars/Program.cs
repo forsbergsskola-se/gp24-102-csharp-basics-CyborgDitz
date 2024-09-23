@@ -1,11 +1,13 @@
 ﻿// // See https://aka.ms/new-console-template for more information
 Console.WriteLine("How many dollahs you want yo?");
 var dollahs = Convert.ToInt32(Console.ReadLine());
-string mon = "$";
-for (int i = 0; i < dollahs; i++) {
-Console.Write(mon);
 
-}
+//for loop but not go to
+// string mon = "$";
+// for (int i = 0; i < dollahs; i++) {
+// Console.Write(mon);
+//
+// }
 
 
 
