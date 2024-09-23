@@ -7,4 +7,25 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="P12Random_01Random_Coordinates\**" />
+    <Compile Remove="P12_4Random_Chance\**" />
+    <Compile Remove="P12_2Random_Password\**" />
+    <Compile Remove="P12_3Random_Item\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="P12Random_01Random_Coordinates\**" />
+    <EmbeddedResource Remove="P12_4Random_Chance\**" />
+    <EmbeddedResource Remove="P12_2Random_Password\**" />
+    <EmbeddedResource Remove="P12_3Random_Item\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="P12Random_01Random_Coordinates\**" />
+    <None Remove="P12_4Random_Chance\**" />
+    <None Remove="P12_2Random_Password\**" />
+    <None Remove="P12_3Random_Item\**" />
+  </ItemGroup>
+
 </Project>
