@@ -24,8 +24,12 @@ Console.WriteLine("1st; " +c1 +
 
 Console.WriteLine("Gib crit chance between 0 and 1%");
 double Crit = double.Parse(Console.ReadLine());
+
+for (int i = 0; i < 5; i++) {
 double roll = Random.Shared.NextDouble();
 bool success = roll < Crit;
+
+ 
 if (success)
 {
     Console.WriteLine("Crit!");
@@ -35,3 +39,4 @@ else
     Console.WriteLine("No Crit.");
 }
 
+} //for close
