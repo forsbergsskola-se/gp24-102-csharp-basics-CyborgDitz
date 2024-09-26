@@ -5,23 +5,38 @@ int x = random.Next(1, 100);
 
 string wrong1 = "My answer is Greater!";
 string wrong2 = "My answer is Lower!";
-string answer = "Thats right!";
+string answer = "That's right!";
+int counter = 10;
+
 
 goback:
 int guess = int.Parse(Console.ReadLine());
-
-if (guess == x) {
+counter--; // counts time timer every repeat and if checks if bool counter isn't 0
+if (guess == x && counter > 0) {
     Console.WriteLine(answer);
+    
 }
-else if (guess < x)
-{ Console.WriteLine(wrong1); }
-else if (guess > x)
+else if (guess < x && counter > 0)
+{
+    Console.WriteLine(wrong1);
+
+}
+else if (guess > x && counter > 0)
 { Console.WriteLine(wrong2);
     
 }
-goto goback;
-// output--;
-// if (output > 0)
-// {
-//     goto goback;
-// }
+
+
+if (counter > 0)
+{
+    Console.WriteLine("You have " + counter + " guesses left");
+    goto goback;
+} 
+
+Console.WriteLine("You lose!");
+
+
+
+
+
+
