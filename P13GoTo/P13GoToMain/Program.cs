@@ -12,7 +12,7 @@ int counter = 10;
 goback:
 int guess = int.Parse(Console.ReadLine());
 counter--; // counts time timer every repeat and if checks if bool counter isn't 0
-if (guess == x && counter > 0) {
+if (guess == x && counter > 0) {    
     Console.WriteLine(answer);
     
 }
